@@ -79,14 +79,19 @@ Landing
 
 */
 
-.background__shape{
+.rock{
     position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 245, 214);
     width: 48px;
     height: 48px;
     opacity: 0.4;
     transform: rotate(50deg);
     transform-origin: center;
-    animation: rotate 20s linear infinite;
+    animation: rotate 5s linear infinite;
 }
 
 @keyframes rotate {
@@ -107,7 +112,16 @@ Landing
     }
 }
 
+.landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
 .landing__block{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,6 +129,7 @@ Landing
 }
 
 .landing__block--2{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
