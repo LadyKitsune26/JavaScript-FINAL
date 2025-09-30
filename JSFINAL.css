@@ -79,6 +79,34 @@ Landing
 
 */
 
+.background__shape{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    opacity: 0.4;
+    transform: rotate(50deg);
+    transform-origin: center;
+    animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(15deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 .landing__block{
     display: flex;
     flex-direction: column;
@@ -112,8 +140,11 @@ Landing
 }
 
 .input{
+    font-weight: bold;
+    font-size: 24px;
     width: 300px;
-    height: 30px;
+    height: 48px;
     margin-right: 30px;
     border-radius: 50px 50px 50px 50px;
+    padding-left: 8px;
 }
