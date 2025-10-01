@@ -12,12 +12,13 @@
 <body>
     <section class="nav">
         <nav>
+            <img class="nav__banner" src="./assets/68747470733a2f2f7777772e6272616e746c6962726172792e63612f656e2f7265736f757263657347656e6572616c2f4d6f7669652d62616e6e65722d3134303070782d782d35303070782e706e67.png" alt="">
             <div class="nav__container">
-                <img class="nav__img" src="./assets/undraw_books_wxzz.svg" alt="">
-                <p class="logo__name">Bookshelf.com</p>
+                <img class="nav__img" src="./assets/2208.q703.031.F.m004.c7.FP movie film cinema poster banner.jpg" alt="">
+                <p class="logo__name">Findmynextmovie.com</p>
                 <ul class="nav__links">
                     <a href="#"><li class="nav__link click nav__link--home">Home</li></a>
-                    <a href=""><li class="nav__link click nav__link--find">Find my next Book</li></a>
+                    <a href=""><li class="nav__link click nav__link--find">Find my next movie</li></a>
                 </ul>
                 <button class="btn click nav__link--contact">Contact</button>
             </div>
@@ -26,53 +27,18 @@
     <section id ="landing__section" class="landing__section">
         <div class="landing">
             <div class="landing__block">
-                <h1 class="landing__title logo__name">Bookshelf.com</h1>
-                <h2 class="landing__sub-title">Let us help you find your next reading adventure!</h2>
-                <img class="landing__img landing__title--img" src="./assets/undraw_book-reading_i0eb fence.svg" alt="">
+                <h1 class="landing__title logo__name">Findmynextmovie.com</h1>
+                <h2 class="landing__sub-title">Let us help you find your next visual adventure!</h2>
+                <img class="landing__img landing__title--img" src="./assets/undraw_home-cinema_jdm1.svg" alt="">
             </div>
-            <div class="landing__input" onchange="searchChange()">
-                <input class="input" type="text">
-                <button class="btn click">Search</button>
+            <div class="landing__input" >
+                <input class="input" type="text" onchange="searchChange(event)"><button class="btn click">Search</button>
             </div>
             <div class="landing__block--2">
-                <h2 class="landing__search--title">Adventure awaits with <span class="logo__name">Bookshelf</span></h2>
-                <img class="landing__img landing__search-title--img" src="./assets/undraw_be-the-hero_bce0.svg" alt="">
+                <h2 class="landing__search--title">Adventure awaits with <span class="logo__name">Findmynextmovie.com</span></h2>
+                <img class="landing__img landing__search-title--img" src="./assets/undraw_horror-movie_9020.svg" alt="">
             </div>
         </div>
-        <div class="background__shapes">
-                <img class="background__shape rock shape__black shape__1" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__2" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__3" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__4" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__1" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__2" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__3" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__4" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__1" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__2" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__3" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__4" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__1" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__2" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__3" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__4" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__1" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__2" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__3" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__4" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__1" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__2" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__3" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__4" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__1" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__2" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__3" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__4" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__1" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__2" src="./assets/book-album-svgrepo-com white.svg" alt="">
-                <img class="background__shape rock shape__black shape__3" src="./assets/book-album-svgrepo-com black.svg" alt="">
-                <img class="background__shape rock shape__white shape__4" src="./assets/book-album-svgrepo-com white.svg" alt="">
-            </div>
     </section>
 </body>
 </html>
