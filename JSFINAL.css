@@ -216,3 +216,39 @@ Landing
     border-radius: 50px 50px 50px 50px;
     padding-left: 12px;
 }
+
+
+/* 
+
+movies
+
+*/
+
+.search__results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.movies__title{
+    color: black;
+    font-size: 48px;
+    background: radial-gradient(circle, rgb(161, 161, 161) 60%, rgb(0, 0, 0) 100%);
+    box-shadow: 0 0 100px rgb(178, 179, 179); 
+    border: 2px solid transparent;
+    border-radius: 50px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.sort__bar{
+    font-weight: bold;
+    font-size: 24px;
+    width: 600px;
+    height: 48px;
+    margin-right: 30px;
+    border-radius: 50px 50px 50px 50px;
+    padding-left: 12px;
+}
