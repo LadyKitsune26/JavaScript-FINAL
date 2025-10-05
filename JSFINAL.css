@@ -280,14 +280,18 @@ select{
     padding-left: 12px;
 }
 
-.movies{
+.movies__wrapper{
+    width: 100% calc(33.333%);
+}
+
+/* .movies{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;   
     flex-wrap: wrap;
     gap: 30px;
-}
+} */
 
 .movie__poster{
     width: 300px;
