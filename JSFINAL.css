@@ -282,7 +282,9 @@ select{
 
 .movies{
     display: flex;
-    justify-content: center;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
     flex-wrap: wrap;
     gap: 30px;
 }
@@ -307,16 +309,24 @@ select{
     z-index: 1;
 }
 
-.movie__titles{
-    width: 200px;
+.movie__info{
     height: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    font-size: 18px;
+    align-items: center;
+    font-size: 12px;
     text-align: center;
     color: white;
     font-weight: bold;
     margin-top: 8px;
+    padding: 4px;
 }
 
+.movie__year{
+    margin-top: 8px;
+    text-align: center;
+}
+
+.search__btn{
+    margin-top: 8px;
+}

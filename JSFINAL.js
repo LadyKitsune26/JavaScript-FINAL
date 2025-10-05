@@ -21,7 +21,7 @@ function displayMoives(moviesList){
     <img class="movie__poster" src="${movie.Poster}" alt="${movie.Title}"/>
         <div class="movie__info">
             <h2 class="movie__titles">${movie.Title}</h2>
-            <h4>${movie.Year}</h4>
+            <h4 class="movie__year">${movie.Year}</h4>
             <button class="btn search__btn"> Learn More </button>
         </div>
     </div>`
@@ -40,8 +40,6 @@ function sortChange(event){
         const sortedMovies = currentMovies.sort((a,b) => a.Year - b.Year)
         displayMoives(sortedMovies)
     }
-
-    renderMovies(sortedMovies)
 }
 
 
