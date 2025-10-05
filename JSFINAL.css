@@ -79,6 +79,14 @@ a{
     z-index: 1;
 }
 
+.nav__link--home{
+    width: 85px;
+}
+
+.nav__link--find{
+    width : 200px;
+}
+
 .btn{
     font-size: 24px;
     font-weight: bold;
