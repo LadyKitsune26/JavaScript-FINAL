@@ -280,13 +280,12 @@ select{
     padding-left: 12px;
 }
 
-.movies__wrapper{
+.movies{
     width: 100% calc(33.333%);
 }
 
-.movies{
+.movie{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;   
     flex-wrap: wrap;

@@ -1,4 +1,4 @@
-const moviesWrapper = document.querySelector(`.movies`)
+const moviesWrapper = document.querySelector(`.movie`)
 
 
 function searchChange(event){
@@ -17,7 +17,7 @@ currentMovies = data.Search;
 
 function displayMoives(moviesList){
     moviesWrapper.innerHTML = moviesList.slice(0, 10).map((movie) => {
-    return `<div class="movies">
+    return `<div class="movie">
     <img class="movie__poster" src="${movie.Poster}" alt="${movie.Title}"/>
         <div class="movie__info">
             <h2 class="movie__titles">${movie.Title}</h2>
