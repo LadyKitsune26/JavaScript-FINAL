@@ -1,4 +1,4 @@
-const moviesWrapper = document.querySelector(`.movie`)
+const moviesWrapper = document.querySelector(`.movies`)
 
 
 function searchChange(event){
