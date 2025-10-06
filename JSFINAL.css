@@ -284,11 +284,12 @@ select{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
-    width: 200px;
 }
 
 .movie{
+    max-width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -302,13 +303,16 @@ select{
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.767);
     transition: all 300ms ease;
-    cursor: pointer;
 }
 
 .search__btn{
     font-size: 12px;
     font-weight: bold;
-    padding: 12px 12px 12px 12px;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
     border-radius: 25px;
     border: 1px solid grey;
     background-color: rgba(0, 0, 0, 0.767);
@@ -336,4 +340,175 @@ select{
 
 .search__btn{
     margin-top: 8px;
+}
+
+
+/* 
+
+Media 480px
+
+*/
+
+@media(max-width: 480px){
+
+    .nav__container{
+        max-width: 480px;
+        gap: 4px;
+    }
+
+    .logo__name {
+        padding: 4px 24px;
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .nav .logo__name{
+        display: none;
+    }
+
+    .nav__img{
+        width: 50px;
+        height: 50px;
+        margin: 8px;
+    }
+
+    .nav__banner{
+        margin-top: 75px;
+        height: 200px;
+    }
+
+    .nav__links{
+        max-width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        font-size: 8px;
+    }
+
+    .nav__link--home{
+        display: none;
+    }
+
+    .nav__link--find{
+        display: none;
+    }
+
+    .landing__title{
+        font-size: 32px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .landing__search--title{
+        font-size: 24px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .landing__block--2{
+        padding: 24px 0;
+    }
+
+    .landing__sub-title{
+        font-size: 16px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .landing__img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .input{
+        max-width: 300px;
+        font-size: 8px;
+    }
+
+    .btn{
+        font-size: 16px;
+        padding: 8px 8px 8px 8px;
+    }
+
+    .movies__title{
+        width: 300px;
+        font-size: 32px;
+    }
+
+    .sort__bar{
+        width: 300px;
+        height: 32px;
+    }
+
+    select{
+        font-size: 16px;
+    }
+}
+
+/* 
+
+Media 768px
+
+*/
+
+@media(max-width: 768px){
+    .input{
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .nav .logo__name{
+        display: none;
+    }
+
+    .nav__img{
+        width: 75px;
+        height: 75px;
+        margin: 12px;
+    }   
+
+    .nav__banner{
+        margin-top: 100px;
+        height: 300px;
+    }
+
+    .nav__links{
+        padding-left: 0px;
+        font-size: 12px;
+        margin-left: 200px;
+    }
+
+    .landing__img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .movies__title{
+        width: 400px;
+        font-size: 40px;
+    }
+
+    .movie{
+        max-width: 300px;
+    }
+
+    .sort__bar{
+        width: 400px;
+        height: 40px;
+    }
+
+    select{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1200px){
+    .movie{
+        max-width: 350px;
+    }
+
+    .nav .logo__name{
+        display: none;
+    }
 }
