@@ -343,106 +343,20 @@ select{
 }
 
 
-/* 
 
-Media 480px
+/*
+
+Media 1200px
 
 */
 
-@media(max-width: 480px){
-
-    .nav__container{
-        max-width: 480px;
-        gap: 4px;
-    }
-
-    .logo__name {
-        padding: 4px 24px;
-        font-size: 16px;
-        margin-top: 8px;
+@media(max-width: 1200px){
+    .movie{
+        max-width: 350px;
     }
 
     .nav .logo__name{
         display: none;
-    }
-
-    .nav__img{
-        width: 50px;
-        height: 50px;
-        margin: 8px;
-    }
-
-    .nav__banner{
-        margin-top: 75px;
-        height: 200px;
-    }
-
-    .nav__links{
-        max-width: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 8px;
-        font-size: 8px;
-    }
-
-    .nav__link--home{
-        display: none;
-    }
-
-    .nav__link--find{
-        display: none;
-    }
-
-    .landing__title{
-        font-size: 32px;
-        width: 300px;
-        text-align: center;
-    }
-
-    .landing__search--title{
-        font-size: 24px;
-        width: 300px;
-        text-align: center;
-    }
-
-    .landing__block--2{
-        padding: 24px 0;
-    }
-
-    .landing__sub-title{
-        font-size: 16px;
-        width: 300px;
-        text-align: center;
-    }
-
-    .landing__img{
-        width: 300px;
-        height: 300px;
-    }
-
-    .input{
-        max-width: 300px;
-        font-size: 8px;
-    }
-
-    .btn{
-        font-size: 16px;
-        padding: 8px 8px 8px 8px;
-    }
-
-    .movies__title{
-        width: 300px;
-        font-size: 32px;
-    }
-
-    .sort__bar{
-        width: 300px;
-        height: 32px;
-    }
-
-    select{
-        font-size: 16px;
     }
 }
 
@@ -503,12 +417,111 @@ Media 768px
     }
 }
 
-@media(max-width: 1200px){
-    .movie{
-        max-width: 350px;
+/* 
+
+Media 480px
+
+*/
+
+@media(max-width: 480px){
+
+    .nav__container{
+        max-width: 480px;
+        gap: 4px;
+    }
+
+    .logo__name {
+        padding: 4px 24px;
+        font-size: 16px;
+        margin-top: 8px;
     }
 
     .nav .logo__name{
         display: none;
     }
+
+    .nav__img{
+        width: 50px;
+        height: 50px;
+        margin: 8px;
+    }
+
+    .nav__banner{
+        margin-top: 75px;
+        height: 200px;
+    }
+
+    .nav__links{
+        max-width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        font-size: 8px;
+    }
+
+    .nav__link--home{
+        display: none;
+    }
+
+    .nav__link--find{
+        display: none;
+    }
+
+    .landing__title{
+        font-size: 24px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .landing__title .logo__name{
+        font-size: 16px;
+        padding: 4px 24px;
+    }
+
+    .landing__search--title{
+        font-size: 24px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .landing__block--2{
+        padding: 24px 0;
+    }
+
+    .landing__sub-title{
+        font-size: 16px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .landing__img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .input{
+        max-width: 300px;
+        font-size: 16px;
+    }
+
+    .btn{
+        font-size: 16px;
+        padding: 8px 8px 8px 8px;
+    }
+
+    .movies__title{
+        width: 300px;
+        font-size: 32px;
+    }
+
+    .sort__bar{
+        width: 300px;
+        height: 32px;
+    }
+
+    select{
+        font-size: 16px;
+    }
 }
+
